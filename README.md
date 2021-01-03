@@ -1,4 +1,5 @@
-# 简单的项目
-```
-    随便写写。
+# JavaScript
+
+```javascript
+    console.log(123);
 ```

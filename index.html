@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My-problem</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="./public/vue.css">
+</head>
+
+<body>
+    <div id="app">哈哈哈</div>
+    <script>
+        window.$docsify = {
+            name: '常用知识点',
+            repo: 'https://github.com/lizepeng1/easyBase.git',
+            loadSidebar: true,
+            loadSidebar: './directory.md',
+            search: {
+                maxAge: 86400000, // Expiration time, the default one day
+                placeholder: '搜索',
+                noData: '找不到结果',
+            }
+        }
+    </script>
+    <!-- Docsify v4 -->
+    <script src="./public/docsify.min.js"></script>
+    <script src="./public/search.js"></script>
+</body>
+
+</html>
