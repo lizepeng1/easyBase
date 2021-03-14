@@ -11,13 +11,15 @@
 </head>
 
 <body>
-    <div id="app">哈哈哈</div>
+    <div id="app">加载中...</div>
     <script>
         window.$docsify = {
-            name: '常用知识点',
-            repo: 'https://github.com/lizepeng1/easyBase.git',
+            el: '#app',
+            name: '目录',
+            // repo: 'https://github.com/lizepeng1/easyBase.git',
             loadSidebar: true,
-            loadSidebar: './directory.md',
+            basePath:"/src/",
+            // loadSidebar: 'nav.md',
             search: {
                 maxAge: 86400000, // Expiration time, the default one day
                 placeholder: '搜索',
